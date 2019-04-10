@@ -29,4 +29,8 @@ class apiClient{
 	public static function user_current(){
       return self::makeRequest('user.current');
    }
+   
+	public static function methods(){
+      return self::makeRequest('methods');
+   }
 }
