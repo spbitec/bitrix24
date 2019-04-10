@@ -1,11 +1,12 @@
 {
-    "require": {
-        "php":">=5.6.0",
+    "name":"spbitec/bitrix24",
+    "version":"1.0.0",
+    "require":{
+        "php":">=5.6.0"
     },
-    "repositories":[
-        {
-            "type":"git",
-            "url":"http://github.com/spbitec/bitrix24"
+    "autoload":{
+        "psr-0":{
+            "spbitec":""
         }
-    ]
+    }
 }
